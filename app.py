@@ -2,7 +2,7 @@ from click import open_file
 from sqlalchemy import create_engine
 import pandas as pd
 
-""" assigning .env files to variables """
+""" assigning .env files as variables """
 host_name = open('.login/host.env')
 host = host_name.read()
 
